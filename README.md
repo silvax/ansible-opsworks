@@ -30,7 +30,7 @@ To access opsworks default json, reference {{ opsworks.xxxxx }} from jinja2.
 If you'd like to pass custom json to your ansible templates, you must
 use the 'ansible' key in your custom json definition.  
 
-Also, note that environment and region are required fields.
+Note that 'environment' is a required field in the custom json.
 
 ```
 { 
